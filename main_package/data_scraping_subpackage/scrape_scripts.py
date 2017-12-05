@@ -90,20 +90,12 @@ def extract_dialogues(episodeURL, series):
 # get dialogues for series given as option and compile a file
 # Possible inputs: 'friends', 'bigbangtheory'
 def compile_dialogues(series):
-    if(series == 'friends'):
-        outputFile = open('friends.txt','w')
+    if(series == 'friends' or series == 'bigbangtheory'):
+        outputFile = open(series+'.txt','w')
         listURLs = get_URLs_episodes(series)
         for eachURL in listURLs:
             for eachDialog in extract_dialogues(eachURL,series):
                 outputFile.write(eachDialog+'\n')
-
-    elif(series == 'bigbangtheory'):
-        outputFile = open('bigbangtheory.txt', 'w')
-        listURLs = get_URLs_episodes(series)
-        for eachURL in listURLs:
-            for eachDialog in extract_dialogues(eachURL,series):
-                outputFile.write(eachDialog + '\n')
-
     # BEWARE: the website blocks you after multiple attempts to scrape data
     elif(series == 'house'):
         outputFile = open(series+'.txt', 'w')
