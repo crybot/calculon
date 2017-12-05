@@ -1,6 +1,6 @@
 # import libraries
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 def is_Dialog(text):
     tokens = text.split()
@@ -11,7 +11,7 @@ def is_Dialog(text):
             return False;
     return False;
 
-# get list of all urls for given series
+# get list of all urls for given series. Possible options: 'friends', 'bigbangtheory', 'house'
 def get_URLs_episodes(series):
     if(series == 'friends'):
         main_page = 'http://www.livesinabox.com/friends/scripts.shtml'
@@ -39,20 +39,53 @@ def get_URLs_episodes(series):
             if(not eachURL == notAnEpisodeURL):
                 all_episodes_urls.append(eachURL)
 
+    elif(series == 'house'):
+        main_page = 'https://clinic-duty.livejournal.com/12225.html'
+        main_source = urlopen(main_page)
+        main_soup = BeautifulSoup(main_source, 'html.parser')
+        all_episodes_urls = []
+        divContainer = main_soup.find('div', attrs={'class': 'entryText s2-entrytext '})
+        for all_a_tags in divContainer.find_all('a'):
+            # an observation in html to make things work
+            if ((str)(all_a_tags['href']).__contains__('html')):
+                all_episodes_urls.append(all_a_tags['href'])
+
     return all_episodes_urls;
 
-def extract_dialogues(episodeURL):
-    page_source = urlopen(episodeURL)
-    episode_soup = BeautifulSoup(page_source, 'html.parser')
+# extract dialogues from the given series. episode url is given along with series name: 'friends', 'bigbangtheory', 'house'
+def extract_dialogues(episodeURL, series):
     episode_dialogues = []
-    lines=episode_soup.find_all("p")
-    for line in lines:
-        grabbed_text=str(line.text)
-        if(is_Dialog(grabbed_text)):
-            # replace \n with spaces
-            grabbed_text = grabbed_text.replace('\n', ' ')
-            episode_dialogues.append(grabbed_text)
-    return episode_dialogues;
+    if(series == 'friends' or series == 'bigbangtheory'):
+        page_source = urlopen(episodeURL)
+        episode_soup = BeautifulSoup(page_source, 'html.parser')
+        lines=episode_soup.find_all("p")
+        for line in lines:
+            grabbed_text=str(line.text)
+            if(is_Dialog(grabbed_text)):
+                # replace \n with spaces
+                grabbed_text = grabbed_text.replace('\n', ' ')
+                episode_dialogues.append(grabbed_text)
+        return episode_dialogues;
+    elif(series == 'house'):
+        page_source = urlopen(episodeURL)
+        episode_soup = BeautifulSoup(page_source, 'html.parser')
+        allText = episode_soup.find('div', attrs={'class': 'entryText s2-entrytext '})
+        # special logic to pick text between br tags
+        for br in allText.findAll('br'):
+            next_s = br.nextSibling
+            if not (next_s and isinstance(next_s, NavigableString)):
+                continue
+            next2_s = next_s.nextSibling
+            if next2_s and isinstance(next2_s, Tag) and next2_s.name == 'br':
+                text = str(next_s).strip()
+                if text:
+                    if (is_Dialog(next_s)):
+                        episode_dialogues.append(next_s)
+
+        return episode_dialogues
+
+    print('Could not find any dialogues')
+    return episode_dialogues
 
 # get dialogues for series given as option and compile a file
 # Possible inputs: 'friends', 'bigbangtheory'
@@ -61,15 +94,29 @@ def compile_dialogues(series):
         outputFile = open('friends.txt','w')
         listURLs = get_URLs_episodes(series)
         for eachURL in listURLs:
-            for eachDialog in extract_dialogues(eachURL):
+            for eachDialog in extract_dialogues(eachURL,series):
                 outputFile.write(eachDialog+'\n')
 
     elif(series == 'bigbangtheory'):
         outputFile = open('bigbangtheory.txt', 'w')
         listURLs = get_URLs_episodes(series)
         for eachURL in listURLs:
-            for eachDialog in extract_dialogues(eachURL):
+            for eachDialog in extract_dialogues(eachURL,series):
+                outputFile.write(eachDialog + '\n')
+
+    # BEWARE: the website blocks you after multiple attempts to scrape data
+    elif(series == 'house'):
+        outputFile = open(series+'.txt', 'w')
+        listURLs = get_URLs_episodes(series);
+        listURLs1 = listURLs[0:90]
+        for eachURL in listURLs1:
+            for eachDialog in extract_dialogues(eachURL,series):
+                outputFile.write(eachDialog + '\n')
+        listURLs2 = listURLs[90:]
+        for eachURL in listURLs2:
+            for eachDialog in extract_dialogues(eachURL,series):
                 outputFile.write(eachDialog + '\n')
 
 #compile_dialogues('friends')
 #compile_dialogues('bigbangtheory')
+#compile_dialogues('house')
