@@ -1,0 +1,27 @@
+pair_ID,sentence_A,sentence_B,relatedness_score,entailment_judgment
+1128,A fish is hunting for a turtle in the sea,A sea turtle is hunting for fish,3.9,0
+1129,The turtle is following the red fish,The turtle is following the fish,4.6,1
+1133,A sea turtle is hunting for fish,The turtle isn't following the fish,3.2,0
+1135,The turtle is following the fish,A sea turtle is hunting for food,3.9,0
+1145,A woman is dipping a shrimp in batter,The car is being driven by a man,1.4,0
+1147,A woman is dipping a shrimp in batter,A man is driving a car,1,0
+1149,There is no man playing a guitar,A man is playing a guitar,2.8,1
+1153,There is no man playing a piano,A man is playing a guitar,2.5,0
+1154,A man is playing a guitar under a windows,A man is playing a piano,2.4,0
+1155,There is no man playing a guitar,A man is playing a piano,3.2,0
+1157,A woman is adding ingredients to a big bowl,A woman is adding ingredients to a bowl,4.6,1
+1161,A woman is cracking some eggs into a container,A woman is adding ingredients to a bowl,4.3,0
+1162,A woman is cracking some eggs outside a bowl,A woman is adding ingredients to a bowl,3.5,0
+1165,A woman is cracking some eggs into a bowl,A woman is adding ingredients to a bowl,4.1,1
+1167,There is no woman slicing a carrot,A woman is slicing a carrot,4.1,1
+1169,There is no woman slicing a potato,A woman is slicing a potato,3.9,1
+1175,A woman is cooking prawns,A woman is boiling shrimps,4.1,0
+1179,A woman is boiling shrimps,A woman is arranging her hair,1.2,0
+1180,A woman is boiling shrimps,There is no woman combing her hair,1,0
+1182,A woman is not boiling shrimps,A woman is combing her hair,1.5,0
+1184,A man and a woman are hiking through a wooded area,A man and a woman are walking through a wooded area,4.5,1
+1188,A man and a woman are walking together through wooded areas,A man and a woman are walking through a wooded area,4.5,1
+1191,A man and a woman are walking together through the woods,A man and a woman are walking through a desert area,3.8,0
+1193,A man is making a speech on a podium,A man is speaking on a podium,4.8,1
+1194,A man is speaking on a podium,There is no man speaking on a podium,3,1
+1195,A man is speaking on a podium,A podium is where a man is speaking,4.8,1

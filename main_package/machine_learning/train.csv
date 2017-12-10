@@ -1,0 +1,501 @@
+pair_ID,sentence_A,sentence_B,relatedness_score,entailment_judgment
+1,A group of kids is playing in a yard and an old man is standing in the background,A group of boys in a yard is playing and a man is standing in the background,4.5,0
+2,A group of children is playing in the house and there is no man standing in the background,A group of kids is playing in a yard and an old man is standing in the background,3.2,0
+3,The young boys are playing outdoors and the man is smiling nearby,The kids are playing outdoors near a man with a smile,4.7,1
+5,The kids are playing outdoors near a man with a smile,A group of kids is playing in a yard and an old man is standing in the background,3.4,0
+9,The young boys are playing outdoors and the man is smiling nearby,A group of kids is playing in a yard and an old man is standing in the background,3.7,0
+12,Two dogs are fighting,Two dogs are wrestling and hugging,4,0
+14,A brown dog is attacking another animal in front of the man in pants,Two dogs are fighting,3.5,0
+18,A brown dog is attacking another animal in front of the man in pants,Two dogs are wrestling and hugging,3.2,0
+25,Nobody is riding the bicycle on one wheel,A person in a black jacket is doing tricks on a motorbike,2.8,0
+26,A person is riding the bicycle on one wheel,A man in a black jacket is doing tricks on a motorbike,3.7,0
+28,A person on a black motorbike is doing tricks with a jacket,A person is riding the bicycle on one wheel,3.4,0
+30,A man with a jersey is dunking the ball at a basketball game,The ball is being dunked by a man with a jersey at a basketball game,4.9,1
+35,A man with a jersey is dunking the ball at a basketball game,A man who is playing dunks the basketball into the net and a crowd is in background,3.6,0
+40,The player is dunking the basketball into the net and a crowd is in background,A man with a jersey is dunking the ball at a basketball game,3.8,0
+42,Two people are kickboxing and spectators are not watching,Two people are kickboxing and spectators are watching,3.4,1
+44,Two young women are sparring in a kickboxing fight,Two women are sparring in a kickboxing match,4.9,1
+45,Two young women are not sparring in a kickboxing fight,Two women are sparring in a kickboxing match,3.9,0
+47,Two people are kickboxing and spectators are watching,Two young women are not sparring in a kickboxing fight,3.415,0
+49,Two women are sparring in a kickboxing match,Two people are kickboxing and spectators are not watching,3.7,0
+55,Three boys are jumping in the leaves,Three kids are jumping in the leaves,4.4,1
+56,Three kids are sitting in the leaves,Three kids are jumping in the leaves,3.8,0
+58,Children in red shirts are playing in the leaves,Three kids are sitting in the leaves,3.5,0
+62,Children in red shirts are playing in the leaves,Three kids are jumping in the leaves,4,0
+65,Two angels are making snow on the lying children,Two children are lying in the snow and are making snow angels,2.9,0
+70,Two children are lying in the snow and are drawing angels,Two people in snowsuits are lying in the snow and making snow angels,4.1,0
+72,Two people in snowsuits are lying in the snow and making snow angels,Two angels are making snow on the lying children,2.5,0
+73,Two children are lying in the snow and are making snow angels,Two people in snowsuits are lying in the snow and making snow angels,4.2,0
+77,People wearing costumes are gathering in a forest and are looking in the same direction,Masked people are looking in the same direction in a forest,4.4,1
+78,People wearing costumes are gathering in a forest and are looking in the same direction,People wearing costumes are scattering in a forest and are looking in different directions,3.2,0
+79,People are looking at some costumes gathered in the vicinity of the forest,People wearing costumes are gathering in a forest and are looking in the same direction,3.635,0
+81,A little girl is looking at a woman in costume,People wearing costumes are scattering in a forest and are looking in different directions,2.4,0
+82,A little girl is looking at a woman in costume,People are looking at some costumes gathered in the vicinity of the forest,2.6,0
+83,A young girl is looking at a woman in costume,People wearing costumes are gathering in a forest and are looking in the same direction,2.2,0
+84,People wearing costumes are gathering in a forest and are looking in the same direction,The little girl is looking at a man in costume,3,0
+85,People wearing costumes are gathering in a forest and are looking in the same direction,A little girl in costume looks like a woman,2,0
+87,A lone biker is jumping in the air,A biker is jumping in the air alone,5,1
+88,There is no biker jumping in the air,A lone biker is jumping in the air,4.2,1
+90,A man is jumping into an empty pool,A man is jumping into a full pool,3,1
+91,A man is jumping into an empty pool,The man's jumper is in the empty pool,3.1,0
+93,A lone biker is jumping in the air,A man is jumping into a full pool,1.7,0
+94,The man's jumper is in the empty pool,A lone biker is jumping in the air,1.4,0
+97,A lone biker is jumping in the air,A man is jumping into an empty pool,1.5,0
+98,Four kids are doing backbends in the park,Four children are doing backbends in the park,4.8,1
+99,Four children are doing backbends in the gym,Four children are doing backbends in the park,3.8,0
+100,Four girls are doing backbends and playing in the garden,Four girls are doing backbends and playing outdoors,4.1,1
+107,A man who is playing is running with the ball in his hands,A player is running with the ball,4.3,1
+112,Two groups of people are playing football,A player is running with the ball,2.1,0
+113,Two teams are competing in a baseball game,A player is running with the ball,3,0
+117,A player is running with the ball,Two teams are competing in a football match,2.6,0
+120,Five wooden stands are in front of each child's hut,Five children are standing in front of a wooden hut,3.2,0
+122,Five kids are standing close together and one kid has a gun,Five kids are standing close together and none of the kids has a gun,3.7,1
+124,Five kids are standing close together and none of the kids has a gun,Five children are standing in front of a wooden hut,2.6,0
+126,Five children are standing in a wooden hut,Five kids are standing close together and one kid has a gun,2.7,0
+127,Five wooden stands are in front of each child's hut,Five kids are standing close together and one kid has a gun,2.3,0
+129,An old man is sitting in a field,A man is sitting in a field,4.4,1
+130,A man is sitting in a field,A man is running in a field,2.6,0
+131,A person is wearing a hat and is sitting on the grass,A person is sitting in a field and is wearing a hat,4.1,0
+133,A person is sitting and wearing a grass hat,A person is wearing a hat and is sitting on the grass,3.4,0
+136,A person is sitting and wearing a grass hat,A man is sitting in a field,3.3,0
+139,A man is sitting in a field,A person is wearing a hat and is sitting on the grass,3.8,0
+140,The current is being ridden by a group of friends in a raft,A group of friends are riding the current in a raft,4.9,1
+141,A group of friends are riding the current in a raft,A group is not riding the current in a raft,3.7,1
+146,The current is being ridden by a group of friends in a raft,This group of people is practicing water safety and wearing preservers,3.2,0
+148,A group of friends are riding the current in a raft,This group of people is practicing water safety and wearing preservers,3.1,0
+150,A deer is jumping over a fence,A deer isn't jumping over the fence,3.9,1
+159,People are walking inside a building that has many murals on it,People are walking outside a building that has many murals on it,3.4,0
+161,Several people are in front of a colorful building,Nobody is in front of the colorful building,3.5,1
+163,People are walking outside a building that has many murals on it,Nobody is in front of the colorful building,3.6,0
+164,People are walking outside the building that has several murals on it,Several people are in front of a colorful building,3.6,1
+170,A family is watching a little boy who is hitting a baseball,A family is watching a little boy who is missing a baseball,3.9,0
+173,A child is hitting a baseball,A family is watching a little boy who is missing a baseball,3.015,0
+176,A child is missing a baseball,A family is watching a little boy who is hitting a baseball,2.7,0
+183,A purple crowd of people is eating on various red lit restaurant tables,Various people are eating at red tables in a crowded restaurant with purple lights,3.3,0
+184,A large group of Asian people is eating at a restaurant,Various customers are eating in a crowded restaurant with purple lights,2.9,0
+186,A purple crowd of people is eating on various red lit restaurant tables,A large group of Asian people is eating at a restaurant,3.1,0
+188,Various people are eating at red tables in a crowded restaurant with purple lights,A small group of people is waiting to eat in a restaurant,3.2,0
+192,A motorcycle rider is standing up on the seat of a white motorcycle,No motorcycle rider is standing up on the seat of a motorcycle,3.8,1
+194,Nobody is on a motorcycle and is standing on the seat,Someone is on a black and white motorcycle and is standing on the seat,3.7,1
+200,A motorcyclist is riding a motorbike dangerously along a roadway,A motorcyclist is riding a motorbike along a roadway,4.6,1
+201,There is no motorcyclist riding a motorbike along a roadway,A motorcyclist is riding a motorbike along a roadway,3.7,1
+202,A man with a helmet painted red is riding a blue motorcycle down the road,A motorcyclist with a red helmet is riding a blue motorcycle down the road,4.8,1
+205,A motorcyclist without a helmet is waiting on a blue motorcycle near the road,A motorcyclist is riding a motorbike along a roadway,3.3,0
+215,Two dogs are playing by a tree,A dog is catching a stick in the air and another is watching,3.7,0
+216,Two dogs are playing by a tree,There is no dog leaping in the air,2.7,0
+217,Two dogs are playing by a tree,A dog is leaping high in the air and another is watching,3,0
+223,A girl in white is dancing,The dancer is dancing in front of the sound equipment,4,0
+224,A girl in white is dancing,The blond girl is dancing behind the sound equipment,3.3,0
+226,A girl is wearing white clothes and is dancing,The blond girl is dancing in front of the sound equipment,3.5,0
+227,The blond girl is dancing in front of the sound equipment,There is no girl in white dancing,3.3,0
+232,Three Asian kids are dancing and a man is looking,Three Asian kids are dancing and there is no man looking,3.9,1
+233,Three Asian kids are dancing and a man is looking,An Asian man is dancing and three kids are looking,3.7,0
+234,The children of a family are playing and waiting,Three Asian kids are dancing and a serious man is looking,1.9,0
+237,The children of a family are patiently playing and waiting,Three Asian kids are dancing and a man is looking,2.3,0
+238,There are no children playing and waiting,Three Asian kids are dancing and a man is looking,1.6,0
+240,A woman is wearing an Egyptian hat on her head,A woman is wearing an Egyptian headdress,4.3,1
+241,A woman is wearing an Egyptian headdress,A woman is wearing an Indian headdress,4,0
+248,The black woman is wearing glasses over the headdress,A woman is wearing an Egyptian headdress,3.6,0
+249,A woman is wearing an Egyptian hat on her head,The woman is wearing glasses and a black headdress,2.5,0
+254,A hiker is on top of the mountain and is dancing,There is no hiker dancing on top of the mountain,3.2,1
+256,There is no man on a rock high above some trees standing in a strange position,A man is on a rock high above some trees and is standing in a strange position,4.3,1
+257,A hiker is on top of the mountain and is dancing,A man is on a rock high above some trees and is standing in an uncomfortable position,2.5,0
+258,A hiker is on top of the mountain and is dancing,There is no man on a rock high above some trees standing in a strange position,2.5,0
+259,A man is on a rock high above some trees and is standing in a strange position,A hiker is on top of the mountain and is doing a joyful dance,2.9,0
+260,There is no hiker dancing on top of the mountain,A man is on a rock high above some trees and is standing in a strange position,2.4,0
+265,The brown horse is very near a red barrel at the rodeo,The brown horse is near a red barrel at the rodeo,4.8,1
+266,The brown horse is near a red barrel at the rodeo,The brown horse is far from a red barrel at the rodeo,3.6,1
+269,A cowgirl is riding a brown horse and is cornering a barrel,The brown horse is near a red barrel at the rodeo,3.2,0
+272,A cowgirl is riding a horse and corners a barrel,The brown horse is near a red barrel at the rodeo,3.8,0
+273,A boy is standing in the cold water,A boy is standing in the water,4.1,1
+276,The boy is sitting near the blue ocean,The boy is wading through the blue ocean,3.2,1
+277,A boy is standing in the water,The kid is swimming through the blue ocean,3,0
+279,The boy is wading through the blue ocean,A boy is standing in the cold water,3.3,0
+283,A man is playing a guitar on stage,There is no man playing a guitar on stage,3.6,1
+286,A man is playing a guitar on stage,A guitarist has blonde and flyaway hair,3,0
+287,A man is playing a guitar on stage,A bald person is playing a guitar,3.8,0
+289,There is no man playing a guitar on stage,A person has blonde and flyaway hair and is playing a guitar,3.4,0
+291,Several children are sitting down and have their knees raised,Several children are lying down and are raising their knees,4,0
+293,Two young girls are sitting on the ground,Two girls are sitting on the ground,4.4,1
+296,Two girls are lying on the ground,Several children are sitting down and have their knees raised,2.8,0
+301,A nude lady is walking in front of a crowd in body paint,There is no lady walking in body paint in front of a crowd ,2.9,1
+302,A nude lady is walking in front of a crowd in body paint,A nude crowd in body paint is walking in front of a lady ,3.1,0
+303,A young topless woman is covered in paint,A topless girl is covered in paint,4.4,1
+305,A nude lady is walking in front of a crowd in body paint,A topless girl is covered in paint,3.8,1
+309,A nude crowd in body paint is walking in front of a lady ,A young  topless woman is covered in paint,3,0
+310,A nude lady is walking in front of a crowd in body paint,A young  topless woman is covered in paint,4.2,0
+311,A group of people is near the ocean,A crowd of people is near the water,4.3,1
+312,A crowd of people is near the water,A crowd of people is far from the water,3.8,1
+313,A group of children in uniforms is standing at a gate and one is kissing the mother,A group of children wearing the same clothes is waiting at a gate and one is kissing the mother,4.5,1
+315,A group of mothers in uniforms is standing near the children and one is kissing the gate,A group of children in uniforms is standing at a gate and one is kissing the mother,3.3,0
+323,A man is in a parking lot and is playing tennis against a large wall,A man is in a parking lot and is playing tennis against a friend,3.9,0
+327,A man is in a parking lot and is playing tennis against a large wall,There is no man pointing at a car,1.5,0
+329,A man is in a parking lot and is playing tennis against a friend,A man is pointing at a silver sedan,1.3,0
+331,A group of people is on a beach,A group of people is near the sea,4,1
+332,A group of people is on a beach,A group of people is on a mountain,2.6,0
+333,A man  a woman and two girls are walking on the beach,Four people are walking on the beach,4.5,1
+335,A group of people is on a beach,Four people are walking on the beach,4.6,0
+338,A man  a woman and two girls are walking on the beach,A group of people is on a mountain,1.4,0
+339,A man  a woman and two girls are walking on the beach,A group of people is on a beach,4.3,1
+340,A schoolgirl with a black bag is on a crowded train,A girl with a black bag is on a crowded train,4.7,1
+341,There is no girl with a black bag on a crowded train,A girl with a black bag is on a crowded train,3.7,1
+342,A girl with a black bag is on a crowded train,A cramped black train is on the bag of a girl,2.7,0
+344,An Asian woman in a crowd is not carrying a black bag,An Asian woman in a crowd is carrying a black bag,3.8,0
+346,A girl with a black bag is on a crowded train,An Asian woman in a crowd is not carrying a black bag,2.5,0
+347,A schoolgirl with a black bag is on a crowded train,An Asian woman in a crowd is carrying a black bag,2.8,0
+351,A dog is chasing another and is holding a stick in its mouth,A dog is chasing another and is holding a piece of wood in its mouth,4.6,1
+354,Two dogs are running and carrying a toy in their mouths,Two dogs are running and carrying an object in their mouths,4.3,1
+358,A dog is chasing another and is holding a piece of wood in its mouth,Two dogs are running and carrying an object in their mouths,3.9,0
+360,Two dogs are running and carrying an object in their mouths,A dog is chasing a stick and holding another dog in its mouth,3.2,0
+361,A dog is chasing another and is holding a stick in its mouth,Two dogs are running and carrying an object in their mouths,4,1
+362,A dirty soccer ball is rolling into a goal net,A soccer ball is rolling into a goal net,4.5,1
+363,A soccer ball is not rolling into a goal net,A soccer ball is rolling into a goal net,3.4,1
+366,A person who plays soccer is kicking a ball into the goal,A soccer ball is rolling into a goal net,4.1,0
+367,A soccer ball is rolling into a goal net,A soccer player is kicking a ball out of the goal,3.2,0
+370,A soccer ball is rolling into a goal net,A soccer player is kicking a ball into the goal,4.3,0
+372,A man is sitting on a chair and rubbing his eyes,There is no man sitting on a chair and rubbing his eyes,3.8,1
+373,A man with tattoos is lounging on a couch and holding a pencil,A tattooed man is on a sofa and is holding a pencil,4.4,1
+374,A man with tattoos is lounging on a couch and holding a pencil,A man with tattoos is lounging on a couch and is looking for a pencil,2.9,0
+375,A man with tattoos is holding a couch with a pencil,A man with tattoos is lounging on a couch and holding a pencil,2.6,0
+377,A man is sitting on a chair and rubbing his eyes,A man with tattoos is lounging on a couch and is looking for a pencil,2.1,0
+378,A man with tattoos is holding a couch with a pencil,A man is sitting on a chair and rubbing his eyes,2,0
+379,A man is resting on a chair and rubbing his eyes,A man with tattoos is lounging on a couch and holding a pencil,2.5,0
+380,A man with tattoos is lounging on a couch and holding a pencil,There is no man sitting on a chair and rubbing his eyes,1.6,0
+381,A man with tattoos is lounging on a couch and holding a pencil,A man is sitting on a chair and rubbing his eyes,2.4,0
+387,A brown and white dog is running through the tall grass,A black and tan dog is running through the low and green grass,3.8,0
+390,A white and tan dog is running through the tall and green grass,A brown and white dog is running through the tall grass,4.6,1
+391,A man with paint covered clothes is sitting outside in a busy area writing something,A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something,4.8,1
+392,There is no man wearing clothes that are covered with paint or is sitting outside in a busy area writing something,A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something,4.1,1
+393,A sitting man is busy writing something in an area covered by paint,A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something,3.7,0
+395,A man is sitting near a bike and is writing a note,There is no man writing a note near a bike,4.2,1
+396,A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something,A man is standing near a bike and is writing on a piece paper,2.6,0
+397,There is no man writing a note near a bike,A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something,2.7,0
+398,A man is sitting near a bike and is writing a note,A man with paint covered clothes is sitting outside in a busy area writing something,3.1,0
+403,A group of scouts are camping in the grass,A group of scouts are hiking through the grass,3.5,0
+404,Some people are walking,People are walking,4.7,1
+409,Some people are walking,A group of scouts are camping in the grass,1.5,0
+410,A group of scouts are hiking through the grass,Some people are walking,3.2,1
+413,Two men are taking a break from a trip on a snowy road,Two men are breaking into a car during a trip on a snowy road,3,0
+415,Two men with bikes are on the side of a snowy road,Two men with cars are on the side of a snowy road,3.5,0
+422,Two men are holding fishing poles and fishing tackle,Two men are holding fishing poles,4.3,1
+423,Two men are not holding fishing poles,Two men are holding fishing poles,3.2,1
+427,Two men are holding fishing poles,Two men are standing near the water and are holding tools used for fishing,4.3,0
+428,There is no man standing near the water and holding fishing poles,Two men are holding fishing poles,3.2,0
+434,The helmeted girl is riding a bike,The helmeted girl is perching on a bike,4.2,0
+435,A woman is performing a trick on a ramp with a bicycle,A woman is jumping with a bicycle,4.3,0
+436,A woman is performing a trick on a ramp with a bicycle,A woman is performing a trick on a ramp with a car,2.4,0
+438,The helmeted girl is perching on a bike,A woman is performing a trick on a ramp with a car,1.9,0
+439,The girl with a helmet is perching on a bike,A woman is performing a trick on a ramp with a bicycle,2.9,0
+440,The helmeted girl is riding a bike,A woman is performing a trick on a ramp with a bicycle,3.7,0
+441,A woman is performing a trick on a ramp with a bicycle,The helmeted girl is perching on a bike,3.3,0
+442,A blonds girl is surfing,A blond girl is riding the waves,4.7,1
+446,A lady is surfing and riding a wave,A boy is surfing and riding a wave,3.5,0
+447,A woman is surfing,A blond girl is riding the waves,4,0
+449,A lady is surfing and riding a wave,A blonds girl is surfing,3.6,0
+451,A blond girl waves while she is riding,A lady is surfing and riding a wave,2.3,0
+454,Two children and an adult are standing next to a tree limb,Two children and an adult are not standing next to a tree limb,3.6,1
+457,Two children and an adult are standing next to a tree limb,Two children are climbing a tree,3,0
+461,Two children and an adult are standing next to a tree limb,Two children are hanging on a large branch,2.7,0
+462,A man dressed in black is riding a bike,A man is performing a trick on a bike,3.5,0
+465,A man is performing stunts on a green bicycle,A man is performing a trick on a green bicycle,4.7,1
+470,There is no man dressed in black and riding a green bike,A man is performing a trick on a green bicycle,3.4,0
+473,A boy is holding a squirt gun,A child is holding a squirt gun,4.5,1
+475,A laughing child is holding a water gun and getting sprayed with water,A child with a gun that sprays water is laughing and getting hit by other boys,4,0
+476,There is no child holding a water gun or getting sprayed with water,A laughing child is holding a water gun and getting sprayed with water,4,1
+477,A child with a gun that sprays water is laughing and getting hit by other boys,A child is holding a squirt gun,3.9,1
+484,Two daschunds are playing with a red ball,Two dogs are playing with a small red ball,4.2,0
+485,Two cats are playing with a red ball,Two daschunds are playing with a red ball,3.3,0
+486,Two brown dogs are fighting over a red ball and are playing in the grass,Two dogs are playing with a small red ball,3.8,0
+489,There is no dog playing with a red ball,Two daschunds are playing with a red ball,3,1
+491,The black and white dog is running and a person stands behind it,The dog  which is black and white  is running and a person stands behind it,4.9,1
+494,A little dog is sprinting and the person who owns it is trying to catch it,A little dog is sprinting and its owner is trying to catch it,4.8,1
+496,The black and white dog is running and a person stands behind it,A little dog is sprinting and the person who owns it is trying to catch it,3,0
+497,The black and white dog is running and a person stands behind it,A little dog is slowing down and the owner is quitting chasing it,2.9,0
+499,The black and white dog isn't running and there is no person standing behind,A little dog is sprinting and its owner is trying to catch it,2.7,0
+500,A black person is running along a white stand and a dog barks behind him,A little dog is sprinting and its owner is trying to catch it,2.5,0
+505,A man wearing a dyed black shirt is sitting at the table and laughing,A black shirt is being worn by a man who is sitting at the table and laughing,4.7,1
+506,A man wearing a dyed black shirt is sitting at the table and laughing,There is no man wearing a shirt dyed black  sitting at the table and laughing,3.7,1
+507,A laughing man is dyeing a shirt black on the table which you cannot sit at ,A man wearing a dyed black shirt is sitting at the table and laughing,3.6,0
+508,A black shirt is being worn by a man who is sitting at the table and laughing,A man is sitting comfortably at a table,3.5,0
+513,A man is sitting and tables a comfortable discussion,A man wearing a dyed black shirt is sitting at the table and laughing,2.4,0
+514,A man is sitting comfortably at a table,A man wearing a dyed black shirt is sitting at the table and laughing,3.9,0
+515,A woman who is wearing a pink boa is riding a bicycle down a bridge built for pedestrians,A woman who is wearing a pink scarf is riding a bike down a bridge built for pedestrians,4.3,1
+516,A woman who is taking off a pink boa is stopping her bicycle on a bridge built for pedestrians,A woman who is wearing a pink boa is riding a bicycle down a bridge built for pedestrians,3.7,0
+522,A woman who is wearing a pink boa is riding a bicycle down a bridge built for pedestrians,The woman wearing silver pants  pink bellbottoms and a pink scarf isn't riding a bike,2.6,0
+524,A woman who is wearing a pink scarf is riding a bike down a bridge built for pedestrians,The woman wearing silver pants  pink bellbottoms and a pink scarf is riding a bike,3.7,0
+527,A woman who is wearing a pink boa is riding a bicycle down a bridge built for pedestrians,The woman wearing silver pants  pink bellbottoms and a pink scarf is riding a bike,2.5,0
+528,A person  who is riding a bike  is wearing gear which is black,A biker is wearing gear which is black,4.7,1
+529,A biker is naked,A biker is wearing gear which is black,3.315,1
+531,A black helmet is being worn by a man who is pushing a bicycle,One man is wearing a black helmet and pushing a bicycle,4.8,1
+535,A biker is wearing gear which is black,There is no man wearing a black helmet and pushing a bicycle,2.7,0
+538,One man is wearing a black helmet and pushing a bicycle,A biker is naked,2.6,0
+541,The man in a grey t-shirt is sitting on a rock in front of the waterfall,The man in a t-shirt dyed grey is sitting on a rock in front of a waterfall,4.9,1
+542,The man in a grey t-shirt is sitting on a rock in front of the waterfall,There is no man in a grey t-shirt sitting on a rock in front of the waterfall,3.5,1
+545,A woman is standing and isn't looking at the waterfall,A woman is sitting and looking at the waterfall,3.1,0
+548,A woman is standing and isn't looking at the waterfall,The man in a grey t-shirt is sitting on a rock in front of the waterfall,2.5,0
+550,The man in a t-shirt dyed grey is sitting on a rock in front of a waterfall,A woman is sitting and looking at the waterfall,3.1,0
+551,There is no man in a grey t-shirt sitting on a rock in front of the waterfall,A woman is sitting and looking at the waterfall,1.9,0
+552,A woman is sitting and looking at the waterfall,A rocker is sitting with a t-shirt that has a man over a grey waterfall on the front,2.5,0
+555,A dog  which is brown  and a black one are running in the grass,There is no dog running in the grass,3.4,1
+556,A black man is running in brown grass and racing a dog,A dog  which is brown  and a black one are running in the grass,2.5,0
+557,A dark black dog and a light brown dog are playing in the yard in the back,A dark black dog and a light brown dog are playing in the backyard,4.9,1
+560,A dark black dog and a light brown dog are playing in the yard in the back,A dog  which is brown  and a black one are running in the grass,4,0
+561,A dark black dog and a light brown dog are fighting in the backyard,A dog  which is brown  and a black one are running in the grass,3.6,0
+564,There is no dog running in the grass,A dark black dog and a light brown dog are playing in the backyard,3.1,0
+565,A dark black dog and a light brown dog are playing in the backyard,A black man is running in brown grass and racing a dog,2,0
+568,A dog that has a brown and white coat is sitting in shallow water,A dog that has a brown and white coat is trotting through shallow water,4.1,0
+570,A white and brown dog is walking through the water with difficulty,A white and brown dog is pacing through the water with difficulty,4.5,1
+581,A group of boys are quiet in front of a large door made of wood,A group of boys are playing with a ball in front of a large door made of wood,3.5,0
+586,The children aren't playing in front of a large door,A group of boys are playing with a ball in front of a large door made of wood,3.4,0
+587,A bunch of boys are playing with a ball in front of a large door made of wood,The children are playing in front of a large door,3.4,1
+588,The children are playing in front of a large door,A group of boys are quiet in front of a large door made of wood,3.4,0
+597,A black  red  white and pink dress is being worn by a woman,A woman is taking off a cloak  which is very large  and revealing extravagant apparel,2.8,0
+599,A woman is taking off a cloak  which is very large  and revealing an extravagant dress,A black  red  white and pink dress is being worn by a woman,3.4,0
+601,A teenage girl is storing away beads that are red,A teenage girl is wearing beads that are red,3.8,0
+603,A young lady with light brown hair is wearing a red necklace  a sweatshirt and earrings and is smiling,A lady of young age  with light brown hair  is wearing a red necklace  a sweatshirt and earrings and is smiling,5,1
+604,A young lady with light brown hair is wearing a red necklace  a sweatshirt and earrings and is smiling,There is no young lady with light brown hair wearing a red necklace  a sweatshirt and earrings and smiling,3.7,1
+605,A young lady with light brown hair is wearing a red necklace  a sweatshirt and earrings and is smiling,A red sweatshirt with a smiling lady upon it is suited to be worn with light brown hair  earrings and a necklace ,3.3,0
+606,A lady of young age  with light brown hair  is wearing a red necklace  a sweatshirt and earrings and is smiling,A teenage girl is wearing beads that are red,3.1,0
+609,A young lady with light brown hair is wearing a red necklace  a sweatshirt and earrings and is smiling,The teenage girl is wearing beads that are red,2.4,0
+611,The girl likes red and isn't wearing beads for teenagers,A young lady with light brown hair is wearing a red necklace  a sweatshirt and earrings and is smiling,2.3,0
+617,A fearful little boy is on a climbing wall,A fearful little boy is on the ground,3.4,0
+621,A boy is climbing up a wall artificially built for climbing and is attached to a rope,A climbing boy rescues the fearful cat from over the wall,2.2,0
+622,A fearful little boy is on a climbing wall,A boy is effortlessly climbing up a wall artificially built for climbing and is attached to a rope,4.1,0
+625,A boy is climbing up a wall artificially built for climbing and is attached to a rope,A fearful little boy is on a climbing wall,3.9,0
+626,A dad is launching his daughter into a swimming pool,A father is launching the daughter in a swimming pool,4.8,1
+628,A father is in the swimming pool during his daughters launch,A father is launching the daughter in a swimming pool,3.2,0
+629,The man is tossing a kid into the swimming pool that is near the ocean,One man is tossing a kid into the swimming pool that is near the ocean,4.8,1
+631,The man is tossing a kid into the swimming pool that is near the ocean,A kid swimming in the ocean is tossing a coin into the pool  near the man,2.2,0
+632,One man is tossing a kid into the swimming pool that is near the ocean,A father is launching the daughter in a swimming pool,3.9,0
+634,A kid swimming in the ocean is tossing a coin into the pool  near the man,A father is launching the daughter in a swimming pool,1.6,0
+637,A father is in the swimming pool during his daughters launch,The man is tossing a kid into the swimming pool that is near the ocean,2.515,0
+638,A father is launching the daughter in a swimming pool,The man is tossing a kid into the swimming pool that is near the ocean,3.8,0
+641,A social climber is tying a man to a cliff with a rope,One man is climbing a cliff with a rope,3.1,0
+643,A person is standing in front of a rock with a rope  which is pink,A person is climbing a rock with a rope  which is pink,3.9,0
+645,A rock is being climbed by a person with a rope  which is pink,One man is climbing a cliff with a rope,4.3,1
+646,One man is climbing a cliff with a rope,A person is standing in front of a rock with a rope  which is pink,3.4,0
+648,A person is climbing a rock with a rope  which is pink,One man is climbing the cliff with a rope,4.1,1
+649,A person is climbing a rock with a rope  which is pink,One man is descending a cliff with a rope,2.8,0
+650,A person is climbing a rock with a rope  which is pink,A social climber is tying a man to a cliff with a rope,2.685,0
+653,A young boy isn't climbing a wall made of rock,The young boy is climbing the wall made of rock,4.1,1
+655,A young child is climbing a rock climbing wall which is indoors,A young kid is climbing a rock climbing wall which is indoors,4.7,1
+657,A young child is climbing a rock climbing wall which is indoors,A child is indoors watching a program about some young climbers on a rock wall.,3.2,0
+660,A child is indoors watching a program about some young climbers on a rock wall.,The young boy is climbing the wall made of rock,3.4,0
+661,One young boy is climbing a wall made of rock,A young child is climbing a rock climbing wall which is indoors,4.3,0
+663,A young climber is making a rock wall for the boys,A young child is climbing a rock climbing wall which is indoors,2.9,0
+668,The cyclist is performing a trick in the air,The cyclist isn't performing a trick in the air,3.8,1
+671,One man is doing a bicycle trick in midair,The cyclist isn't performing a trick in the air,2.9,0
+672,One man is doing a bicycle trick in midair,The air is tricking a performing cyclist,3,0
+676,A dog  which is black  and a white one are staring at each other in the street,A dog  which is black  and another one  which is white  are staring at each other in the street,4.9,1
+678,A dog  which is black  and a white one are staring at each other in the street,One white dog is staring at the black street,3.1,0
+679,Two dogs of different breeds are looking angrily at each other across a street,Two dogs of different breeds are looking at each other across a street,4.6,1
+680,Two dogs of different breeds are looking at each other across a street,There are no dogs of different breeds looking at each other across a street,3.9,1
+685,A dog  which is black  and another one  which is white  are staring at each other in the street,Two dogs of different breeds are looking at each other across a street,4.1,0
+690,A dog next to a tree  which is probably a pine  is dropping a bucket,A dog next to a tree  which is probably a pine  is biting a bucket,3.4,0
+691,A dog next to a tree  which is probably a pine  is biting a bucket,A dog in a bucket is biting a tree which is probably a pine,3.2,0
+692,A dog which is furry and black is in a backyard and is carrying a basket in its mouth.,A dog which is furry and black is in a back yard and is carrying a basket in its mouth,5,1
+693,A dog which is furry and black is in a back yard and is carrying a basket in its mouth,There is no dog which is furry and black in a back yard carrying a basket in its mouth.,3.7,1
+696,A dog next to a tree  which is probably a pine  is biting a bucket,There is no dog which is furry and black in a back yard carrying a basket in its mouth.,3.2,0
+697,A dog in the backyard is carrying black fur in a basket in its mouth.,A dog next to a tree  which is probably a pine  is biting a bucket,3.4,0
+699,A dog which is furry and black is in a back yard and is carrying a basket in its mouth,A dog next to a tree  which is probably a pine  is dropping a bucket,2.8,0
+702,Two persons of large size are sitting on a park bench and they have a bottle of soda between them,Two large persons are sitting on a park bench and they have a bottle of soda between them,4.7,1
+703,Two large persons are sitting on a park bench and they have a bottle of soda between them,Two large persons are standing near a park bench and they have nothing between them,4.1,1
+704,Two large park benches have a person sitting and a bottle of soda between them,Two large persons are sitting on a park bench and they have a bottle of soda between them,3.7,1
+709,A man and a woman are sitting comfortably on the bench,Two persons of large size are sitting on a park bench and they have a bottle of soda between them,3.3,0
+715,The man is racing for the lead ,A man is leading the race,3.7,0
+722,A few men in a competition are running outside,One man is leading the race,3.1,0
+723,A man is bringing up the rear of the race,A few men in a competition are running outside,3.7,0
+725,A few men in a competition are running outside,A man is leading the race,3.8,0
+727,A man with a camera is studying the subject,There is no man with a camera studying the subject,3.6,1
+728,A man with a camera is studying the subject,The study subject is a camera man,3.6,0
+729,The man with the dyed purple hat is operating a camera that makes videos,The man in the purple hat is operating a camera that makes videos,4.9,1
+730,The man in the purple hat isn't operating a camera that makes videos,The man in the purple hat is operating a camera that makes videos,3.4,1
+731,The man with the dyed purple hat is operating a camera that makes videos,A man with a camera is studying the subject,3.4,0
+732,A man with a camera is studying the subject,The man in the purple hat isn't operating a camera that makes videos,3.2,0
+733,The man in the purple hat is operating a camera that makes videos,The subject is being studied by a man with a camera,3.6,0
+734,The man in the purple hat is operating a camera that makes videos,There is no man with a camera studying the subject,3.2,0
+735,The study subject is a camera man,The man in the purple hat is operating a camera that makes videos,2.8,0
+736,The man in the purple hat is operating a camera that makes videos,A man with a camera is studying the subject,3.3,0
+737,The bride and the groom are leaving after the marriage,The bride and the groom are leaving after the wedding,4.8,1
+738,The bride and the groom are arriving after the wedding,The bride and the groom are leaving after the wedding,4.3,0
+741,A married couple is walking up the aisle,A married couple is walking down the aisle,4.4,1
+745,The priest is walking down the aisle to marry a couple,The bride and the groom are leaving after the wedding,2.8,0
+746,The bride and the groom are leaving after the marriage,A married couple is walking down the aisle,3.6,0
+747,The bride and the groom are arriving after the wedding,A married couple is walking down the aisle,4,0
+748,A married couple is walking down the aisle,The bride is leaving the groom after the wedding,2.6,0
+749,A married couple is walking down the aisle,The bride and the groom are leaving after the wedding,3.4,0
+752,The presentation is being watched by a classroom of students,The presentation is being attended by a classroom of students,4.8,1
+754,The presentation is being attended by a classroom of students,A classroom is full of students,3.4,0
+757,The presentation is being watched by a classroom of students,A classroom is empty,3,0
+760,A boy on a hill covered in snow is wearing a red jacket and a black hat and is sliding on his knees,A boy at the bottom of a hill covered in snow is naked and is sitting on his knees,3.2,0
+761,A boy on a hill covered in snow is wearing a red jacket and a black hat and is sliding on his knees,A boy on a red and black slide is wearing a jacket and a hat and has knees which are covered in snow,3.5,0
+762,The kid is happily sliding in the snow,The kid is sliding in the snow,4.5,1
+764,A snow slide is full of kids,The kid is sliding in the snow,3.4,0
+766,A boy on a hill covered in snow is wearing a red jacket and a black hat and is sliding on his knees,The kid is still in the snow,3.4,1
+769,The kid is sliding in the snow,A boy at the bottom of a hill covered in snow is naked and is sitting on his knees,2.7,0
+772,A woman and a dog are peacefully sitting on a tree stump,A woman and a dog are sitting on a tree stump,4.5,1
+774,A woman  who is old  is near a dog that has a white coat,A woman  who is old  is near a white dog,4.4,1
+777,A woman  who is old  is far from a white dog,A woman and a dog are sitting on a tree stump,2.4,0
+783,A man is watering the grass and excitedly playing with a dog,A dog is excitedly playing with water in the grass,3.5,0
+784,The dog is biting some droplets of water,The dog is snapping at some droplets of water,4.5,1
+785,The dog is snapping at some droplets of water,The dog isn't snapping at some droplets of water,4,1
+789,A dog is excitedly playing with water in the grass,A snap is depicting some water falling in droplets on the dog,2.9,0
+791,The dog is snapping at some droplets of water,There is no dog excitedly playing with water in the grass,3.5,0
+792,A man is watering the grass and excitedly playing with a dog,The dog is snapping at some droplets of water,2.4,0
+793,The dog is snapping at some droplets of water,A dog is excitedly playing with water in the grass,4.2,0
+796,Two people are in the snow  wearing clothes that provide camouflage,Some people are in the snow  wearing clothes that provide camouflage,4.4,1
+797,Nobody is in the snow wearing clothes that provide camouflage,Two people are in the snow  wearing clothes that provide camouflage,3.3,1
+799,Some people are in the snow  wearing clothes that provide camouflage,Two people are walking two dogs with golden coats in the snow,2.7,0
+802,Two people are in the snow  wearing clothes that provide camouflage,Two men are walking two dogs with golden coats in the snow,3.2,0
+804,Two people are in the snow  wearing clothes that provide camouflage,Two people are walking two dogs with golden coats in the snow,2.7,0
+811,There is no girl wearing a t-shirt and keeping her mouth open,A girl from Asia  in front of a brick window  looks surprised,2.2,0
+812,A girl from Asia  in front of a window made of bricks  looks surprised,A girl is wearing a t-shirt and has her mouth open.,2.4,0
+813,A girl from Asia  in front of a brick window  doesn't look surprised,A girl is wearing a t-shirt and has her mouth open.,2.1,0
+820,A person in biking gear is standing steadily in front of some mountains ,The mountain gear is steadily placed in front of the standing biker,3.6,0
+822,There is no person in bike gear standing steadily in front of the mountains,A group of people is equipped with protective gear,2.3,0
+824,A group of people is equipped with gear used for protection,A person in biking gear is standing steadily in front of some mountains ,2,0
+825,A group of people is equipped with unprotective gear,A person in biking gear is standing steadily in front of some mountains ,2,0
+830,The little kid is playing football and falling harmlessly into the grass,The little kid is playing football and falling into the grass,4.6,1
+831,There is no little kid playing football and falling into the grass,The little kid is playing football and falling into the grass,4.1,1
+836,The football is between the feet of a boy who is lying on the grass,The little kid is playing football and falling into the grass,3.5,0
+839,The football is between the feet of a boy who is lying on the grass,The little kid is playing football and falling into the grass,3.7,0
+841,A man with equipment used for climbing is hanging from a white  vertical rock.,A man with equipment used for climbing is under a vertical  white rock,3.9,0
+844,A woman with a ponytail is climbing down a wall of rock,A woman with a ponytail is climbing a wall of rock,4.085,1
+845,A woman with a ponytail is climbing a wall of rock,A woman is tailing a pony near a rock climbing wall,2.9,0
+846,A man with equipment used for climbing is hanging from a white  vertical rock.,A woman with pigtails is climbing a rock wall,2.1,0
+848,A woman is tailing a pony near a rock climbing wall,A man with equipment used for climbing is hanging from a white  vertical rock.,1.8,0
+851,A woman with a ponytail is climbing a wall of rock,The climbing equipment to rescue a man is hanging from a white  vertical rock,1.8,0
+852,A man with equipment used for climbing is hanging from a white  vertical rock.,A woman with a ponytail is climbing a wall of rock,2.7,0
+855,A black and a white dog are joyfully running on the grass,A black person in white is joyfully running with the dog on the grass,2.4,0
+857,One white dog and one black one are sitting side by side on the grass,One white dog and one black one are running side by side on the grass,3.7,0
+858,One white dog and one black one are cheerfully running side by side on the grass,A black and a white dog are joyfully running on the grass,4.4,1
+859,One white dog and one black one are sitting side by side on the grass,A black and a white dog are joyfully running on the grass,4.115,0
+862,A black person in white is joyfully running with the dog on the grass,One white dog and one black one are running side by side on the grass,2.3,0
+864,A lot of people are in an ice skating park,Not a lot of people are in an ice skating park,3.9,1
+866,Many people are skating in an ice park,A lot of people are in an ice skating park,3.9,0
+867,The ice skating rink placed outdoors is full of people,An ice skating rink placed outdoors is full of people,4.9,1
+868,An ice skating rink placed outdoors is empty,An ice skating rink placed outdoors is full of people,3.6,1
+869,An ice skating rink placed outdoors is full of people,An ice skater is outdoors performing on a rink full of people,4,0
+870,The ice skating rink placed outdoors is full of people,A lot of people are in an ice skating park,4.2,1
+872,A lot of people are in an ice skating park,An ice skater is outdoors performing on a rink full of people,3.5,0
+874,An ice skating rink placed outdoors is full of people,There aren't many people in the ice skating park,3.6,1
+876,An ice skating rink placed outdoors is full of people,A lot of people are in an ice skating park,4.5,1
+878,A girl in a uniform  which is blue  is lowering her arm,A girl in a uniform  which is blue  is raising her arm.,3.4,0
+879,A girl is raising a blue uniform with her arm,A girl in a uniform  which is blue  is raising her arm.,3.3,0
+880,The girl in the blue and white uniform is cheering,Some cheers are being performed by the girl in the blue and white uniform,4.9,1
+881,The girl in the blue and white uniform isn't cheering,The girl in the blue and white uniform is cheering,4.1,1
+883,Some cheers are being performed by the girl in the blue and white uniform,A girl in a uniform  which is blue  is raising her arm.,4.2,0
+887,The girl in the blue and white uniform is cheering,A girl in a uniform  which is blue  is lowering her arm,3.4,0
+888,A girl is raising a blue uniform with her arm,The girl in the blue and white uniform is cheering,3.2,0
+889,A girl in a uniform  which is blue  is raising her arm.,The girl in the blue and white uniform is cheering,3.3,0
+892,People are on a beach full of sand by the ocean and are enjoying a sunny day,People are on a beach full of sand by the ocean and are enjoying a day full of sun,4.8,1
+893,People are far from a beach full of sand by the ocean and are suffering from the sunny day,People are on a beach full of sand by the ocean and are enjoying a sunny day,2.9,0
+895,People are far from a beach full of sand by the ocean and are suffering from the sunny day,A bunch of people is on the shore,2.8,0
+898,People are on a beach full of sand by the ocean and are enjoying a sunny day,A bunch of people is on the shore,3.8,1
+902,The man is doing a wheelie with a motorbike in a field which is mostly barren,The man is doing a wheelie with a motorcycle on ground which is mostly barren,4.4,1
+904,The man is doing a wheelie with a motorcycle on ground which is mostly barren,The man is on ground which is mostly barren  filming a wheelie done with a motorcycle.,3.5,0
+906,A man in a blue jumpsuit is courageously performing a wheelie on a motorcycle,The man is getting off a motorcycle onto ground which is mostly barren,3.5,0
+908,A man in a blue jumpsuit is courageously performing a wheelie on a motorcycle,The man is doing a wheelie with a motorcycle on ground which is mostly barren,4.1,0
+909,A man in a blue jumpsuit is failing to perform a wheelie on a motorcycle,The man is doing a wheelie with a motorcycle on ground which is mostly barren,3.4,0
+910,The man is doing a wheelie with a motorcycle on ground which is mostly barren,A courageous performer is doing a wheelie with a motorcycle over a man in a blue jumpsuit,3.6,0
+915,Two people are arguing near a crowd,Two people are kissing near a crowd,3,0
+917,Two people are passionately kissing near a crowd,A woman is being kissed by a man,4,0
+920,Two people are kissing near a crowd,A lady is being kissed by a man,4.1,0
+922,Two people are kissing near a crowd,A woman is being kissed by a man,4,0
+927,The young girl is blowing a bubble that is huge,The young girl is blowing a bubble that is very small,3.7,1
+931,The young girl is blowing a bubble that is huge,The girl in a dyed red shirt isn't blowing a bubble,3.3,0
+932,A bubble blew  dyeing the girl's shirt red.,The young girl is blowing a bubble that is huge,3,0
+935,A young child is barefoot and is walking past a puddle full of mud,A young child is wearing green boots and playing in a puddle full of mud,3.5,0
+936,A young child is wearing green boots and playing in a puddle full of mud,Some green boots in a puddle full of mud are targeted by a playful young child wearing a scarf,3,0
+940,A young child is wearing green boots and playing in a puddle full of mud,A little boy is jumping into a puddle in the street,3.8,0
+943,A little boy is jumping into a puddle on the street,A young child is wearing boots made of green rubber and playing in a puddle full of mud,4.2,0
+944,A young child is barefoot and is walking past a puddle full of mud,A little boy is jumping into a puddle on the street,2.9,0
+945,Some green boots in a puddle full of mud are targeted by a playful young child wearing a scarf,A little boy is jumping into a puddle on the street,2.6,0
+948,Two toddlers are sleeping in a wagon  which is really small,Two toddlers are eating corndogs in a wagon  which is really small,3.4,0
+949,Two toddlers are eating on a really small wagon full of corndogs ,Two toddlers are eating corndogs in a wagon  which is really small,3.9,0
+950,Two young kids are eating corndogs,Two young children are eating corndogs,4.9,1
+953,Two toddlers are eating corndogs in a wagon  which is really small,Two young children are eating corndogs,4.5,1
+956,Some corndogs are being eaten by two toddlers who are in a wagon  which is really small,Two young kids are eating corndogs,4.3,1
+957,Two toddlers are sleeping in a wagon  which is really small,Two young kids are eating corndogs,1.6,0
+959,Two toddlers are eating corndogs in a wagon  which is really small,Two young kids are eating corndogs,4.3,1
+960,A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face,A man in a shirt dyed purple is looking at a man in a black shirt who is doing a face which looks funny,5,1
+961,A man in a shirt dyed purple is walking away from a man in a black shirt  who is serious,A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face,3.4,1
+962,A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face,A man in a purple shirt is dying another shirt black  which has a man looking at a dog doing a funny face painted on it.,3,0
+963,A man in a pose is being amusedly watched by another man,A man doing a pose is being watched by another man,4.6,1
+967,A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face,There is no man in a pose being watched by another man,3.6,0
+970,A man doing a pose is being watched by another man,A man in a shirt dyed purple is walking away from a man in a black shirt  who is serious,2.8,0
+973,A horse is tossing the cowboy wearing pants of blue and red color,The cowboy in blue and red pants is being tossed by a horse,4.9,1
+975,A horse is tossing the cowboy wearing pants of blue and red color,The cowboy is tossing the blue and red pants towards the horse,2.9,0
+978,A man is laying a cover over a wild horse that is falling on the track,A man is falling off a horse on a track and is laid in the wild,3,0
+979,A man is abruptly falling off a horse on a track laid in the wild,A horse is tossing the cowboy wearing pants of blue and red color,3.4,0
+984,A man is falling off a horse on a track and is laid in the wild,The cowboy is tossing the blue and red pants towards the horse,2.2,0
+985,A man is falling off a horse on a track and is laid in the wild,A horse is tossing the cowboy wearing pants of blue and red color,2.7,0
+989,The man and the boy are standing at the bottom of the stairs  which are outdoors,A man and a boy are standing at the bottom of some stairs  which are outdoors,5,1
+991,The man and the boy are standing at the bottom of the stairs  which are outdoors,The man is standing outdoor and the boy is falling over the bottom of the stairs,3.3,0
+994,An adult is in the amphitheater and is talking to a boy,The man is standing outdoor and the boy is falling over the bottom of the stairs,2,0
+996,There is no adult in the amphitheater talking to a boy,The man and the boy are standing at the bottom of the stairs  which are outdoors,2.2,0
+998,The man and the boy are standing at the bottom of the stairs  which are outdoors,An adult is in the amphitheater and is talking to a boy,1.8,0
+1000,A boy in a red shirt is in front of a long blue wall and is suspiciously raising an eyebrow at the camera,A boy in a red shirt is behind a long blue wall and is lowering an eyebrow  facing the camera,4,0
+1002,There is no boy standing in front of the blue building in the space reserved for handicapped people,A boy is standing in front of the blue building in the space reserved for handicapped people,4.1,1
+1004,A boy in a red shirt is in front of a long blue wall and is suspiciously raising an eyebrow at the camera,There is no boy standing in front of the blue building in the space reserved for handicapped people,2,0
+1007,A boy in a red shirt is in front of a long blue wall and is suspiciously raising an eyebrow at the camera,A boy is standing in front of the blue building in the space reserved for handicapped people,2.4,0
+1008,The Jockeys are riding horses on the field  which is completely green,The Jockeys are racing horses on the field  which is completely green,4.7,1
+1009,The Jockeys are racing horses on the field  which is completely green,The Jockeys are slowing down their horses on the field  which is completely green,4.2,0
+1010,The green field for horse races is completely full of Jockeys,The Jockeys are racing horses on the field  which is completely green,4,1
+1016,Some furious racers on the green grass are yelling at the horses jumping an obstacle,The Jockeys are racing horses on the field  which is completely green,2.8,0
+1018,Some horses are racing furiously over the green grass and jumping an obstacle,The Jockeys are slowing down their horses on the field  which is completely green,3,0
+1019,Some horses are racing furiously over the green grass and jumping an obstacle,The green field for horse races is completely full of Jockeys,3.9,0
+1021,A woman is wearing sunglasses of large size and is holding newspapers in both hands,The woman is wearing sunglasses of large size and is holding newspapers in both hands,5,1
+1022,A woman is wearing sunglasses of large size and is holding newspapers in both hands,There is no woman wearing sunglasses of large size and holding newspapers in both hands,3.8,1
+1026,An old woman is wearing a shirt with a rose pattern upon it and is clumsily carrying two newspapers,A woman is wearing sunglasses of large size and is holding newspapers in both hands,3.6,0
+1028,An old woman is wearing a rose patterned shirt and is clumsily carrying two newspapers,The woman is wearing sunglasses of large size and is holding newspapers in both hands,3.5,0
+1029,An old woman is wearing a rose patterned shirt and is clumsily carrying two newspapers,There is no woman wearing sunglasses of large size and holding newspapers in both hands,3,0
+1031,An old woman is wearing a rose patterned shirt and is clumsily carrying two newspapers,A woman is wearing sunglasses of large size and is holding newspapers in both hands,3.8,0
+1033,A person who is practicing snowboarding falls from the air,A person who is practicing snowboarding jumps into the air,3.5,0
+1037,The snowboarder is leaping over white snow,A leap over white snow is greatly appealing to the snowboarders,3.2,0
+1038,The snowboarder is leaping fearlessly over white snow,A person who is practicing snowboarding jumps into the air,3.9,1
+1043,A practicing jumper is tossing a person's snowboard into the air,The snowboarder is leaping over white snow,2.8,0
+1044,The snowboarder is leaping over white snow,A person who is practicing snowboarding jumps into the air,4.1,1
+1045,A dog is near a ball colored in red  which is in the air,A dog is near the red ball in the air,4.9,1
+1046,A dog is near the red ball in the air,A dog is far from the red ball in the air,3.6,1
+1047,A dog is jumping in the air to catch a red ball,A dog is near the red ball in the air,4.2,0
+1048,A dog  which is small  is playing tirelessly on the green grass,A dog  which is small  is playing on the green grass,4.7,1
+1049,A dog  which is small  is playing on the green grass,A dog  which is small  is running out of the green grass,3.9,0
+1050,A dog  which is small  is playing on the green grass,A small kid is playing with a green toy dog on the grass,2.8,0
+1052,A dog  which is small  is running out of the green grass,A dog is near the red ball in the air,2.6,0
+1053,A dog is near the red ball in the air,A small kid is playing with a green toy dog on the grass,1.8,0
+1054,A dog  which is small  is playing on the green grass,A dog is near a ball colored in red  which is in the air,2.4,0
+1055,A dog is far from the red ball in the air,A dog  which is small  is playing on the green grass,2,0
+1057,A dog is near the red ball in the air,A dog  which is small  is playing on the green grass,2.7,0
+1061,A man is riding a motorbike in the event related to motocross,A person is riding a motorbike in the event related to motocross,4.4,1
+1064,The person is riding a motorbike on a sandy track,A man is riding a motorbike in the event related to motocross,3.6,0
+1065,There is no person riding a motorbike in the event related to motocross,The person is riding a motorbike on a sandy track,3.565,0
+1068,A person is riding a motorbike in the event related to motocross,The person isn't riding a motorbike on a sandy track,3.3,0
+1069,A motorbike rider is jumping over a person on a sandy track,A person is riding a motorbike in the event related to motocross,3.3,0
+1074,The young girl with a pink shirt is peacefully lying on the grass,The young girl with a pink shirt isn't peacefully lying on the grass,4.5,1
+1076,A girl is wearing a pink shirt with white writing on it and is lying in the grass,The young girl with a shirt dyed pink is peacefully lying on the grass,4.1,0
+1080,The young girl with a pink shirt is peacefully lying on the grass,A girl is naked and is standing on the grass,3.3,0
+1082,A dog of large size is running on the grass with a tennis ball in its mouth,A large dog is running on the grass with a tennis ball in its mouth,4.7,1
+1083,There is no large dog running on the grass with a tennis ball in its mouth,A large dog is running on the grass with a tennis ball in its mouth,3.5,1
+1084,A large dog is running on the grass with a tennis ball in its mouth,A large tennis ball is being used to teach a dog to run in the grass and catch it with its mouth,3.8,0
+1087,A dog  which is large and gray  is carrying a ball in its mouth and running across the grass,A large  gray ball is hitting a running dog  which is carrying some grass in its mouth,3.1,0
+1088,A large dog is running on the grass with a tennis ball in its mouth,A dog  which is large and gray  is difficultly carrying a ball in its mouth and running across the grass,4.2,0
+1090,A large  gray ball is hitting a running dog  which is carrying some grass in its mouth,A large dog is running on the grass with a tennis ball in its mouth,2.45,0
+1091,A dog  which is large and gray  is carrying a ball in its mouth and running across the grass,A dog of large size is running on the grass with a tennis ball in its mouth,4.2,0
+1092,A dog  which is large and gray  is carrying a ball in its mouth and running across the grass,There is no large dog running on the grass with a tennis ball in its mouth,3.4,0
+1093,A large tennis ball is being used to teach a dog to run in the grass and catch it with its mouth,A dog  which is large and gray  is carrying a ball in its mouth and running across the grass,3.2,0
+1094,A dog  which is large and gray  is carrying a ball in its mouth and running across the grass,A large dog is running on the grass with a tennis ball in its mouth,4.4,1
+1095,A man is opening a small package that contains headphones,A man is opening a package that contains headphones,4.9,1
+1097,A man is opening a package that contains headphones,A man who is wearing headphones is opening a package ,2.9,0
+1099,There is no woman riding a horse,A woman is riding a horse,2.8,1
+1104,A man who is wearing headphones is opening a package ,A woman is riding a horse,1.2,0
+1105,A woman is riding a horse,A man is opening a package that contains headphones,1.1,0
+1108,A man is opening a package that contains headphones,A man who is wearing headphones is opening a package ,2.8,0
+1109,A man is singing and playing the guitar,A man is singing a song and playing the guitar,4.9,1
+1111,A man is singing a song and playing the guitar,A man is opening a package that contains headphones,1.2,0
+1112,A man is opening a package that contains headphones,There is no man singing and playing the guitar,1.2,0
+1115,A man is singing and playing the guitar,A man who is wearing headphones is opening a package ,1.9,0
+1117,A dog is riding a skateboard in a park,A dog is riding a skateboard,4.3,1
+1118,A dog is riding a skateboard,There is no dog riding a skateboard,3.5,1
+1120,A dog is riding a skateboard,There is no dog riding a skateboard,3.2,1
+1122,There is no dog riding a skateboard,A dog is riding a skateboard,3.8,1
