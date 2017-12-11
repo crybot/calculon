@@ -1,4 +1,4 @@
-test_id,is_duplicate
+test_id,semantic_similarity
 0,0.5
 1,0.5
 2,0.5
@@ -25,3 +25,7 @@ test_id,is_duplicate
 23,0.5
 24,0.5
 25,0.5
+26,0.5
+27,0.5
+28,0.5
+29,0.5

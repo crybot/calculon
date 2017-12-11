@@ -89,11 +89,11 @@ loaded_model.load_weights("merged_model.h5")
 print("Loaded model from disk")
 
 # evaluate loaded model on test data
-loaded_model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
-score = loaded_model.predict_proba([output_a,output_b], batch_size=384, verbose=1)
-
-with open('submission2.csv', 'w') as submission_file:
-    submission_file.write('test_id,semantic_similarity' + '\n')
-
-    for i in range(0, len(score)):
-        submission_file.write(str(i) + ',' + str('%.1f' % score[i][0]) + '\n')
+# loaded_model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
+# score = loaded_model.predict_proba([output_a,output_b], batch_size=384, verbose=1)
+#
+# with open('submission2.csv', 'w') as submission_file:
+#     submission_file.write('test_id,semantic_similarity' + '\n')
+#
+#     for i in range(0, len(score)):
+#         submission_file.write(str(i) + ',' + str('%.1f' % score[i][0]) + '\n')

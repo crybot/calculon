@@ -25,3 +25,7 @@ pair_ID,sentence_A,sentence_B,relatedness_score,entailment_judgment
 1193,A man is making a speech on a podium,A man is speaking on a podium,4.8,1
 1194,A man is speaking on a podium,There is no man speaking on a podium,3,1
 1195,A man is speaking on a podium,A podium is where a man is speaking,4.8,1
+73,Two children are lying in the snow and are making snow angels,Two people in snowsuits are lying in the snow and making snow angels,4.2,0
+77,People wearing costumes are gathering in a forest and are looking in the same direction,Masked people are looking in the same direction in a forest,4.4,1
+78,People wearing costumes are gathering in a forest and are looking in the same direction,People wearing costumes are scattering in a forest and are looking in different directions,3.2,0
+79,People are looking at some costumes gathered in the vicinity of the forest,People wearing costumes are gathering in a forest and are looking in the same direction,3.635,0
