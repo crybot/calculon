@@ -37,18 +37,13 @@ merged_model = Sequential()
 merged_model.add(Merge([model1, model2], mode='concat'))
 merged_model.add(BatchNormalization())
 
-merged_model.add(Dense(300))
-merged_model.add(PReLU())
-merged_model.add(Dropout(0.2))
-merged_model.add(BatchNormalization())
-
 merged_model.add(Dense(1))
 merged_model.add(Activation('sigmoid'))
 
 merged_model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 #checkpoint = ModelCheckpoint('weights.h5', monitor='val_acc', save_best_only=True, verbose=2)
-merged_model.fit([sentence_a, sentence_b], y=y, batch_size=250, epochs=2,verbose=1)
+merged_model.fit([sentence_a, sentence_b], y=y, batch_size=250, epochs=10,verbose=1)
 
 output_df = pd.read_csv("test.csv")
 
@@ -67,7 +62,7 @@ with open('submission.csv', 'w') as submission_file:
     submission_file.write('test_id,is_duplicate' + '\n')
 
     for i in range(0, len(result)):
-        submission_file.write(str(i) + ',' + str('%.1f' % result[i][0]) + '\n')
+        submission_file.write(str(i) + ',' + str(result[i][0]) + '\n')
 
 # serialize model to JSON
 model_json = merged_model.to_json()
